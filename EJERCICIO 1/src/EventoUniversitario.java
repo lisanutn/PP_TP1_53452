@@ -7,7 +7,7 @@ public class EventoUniversitario {
     private String titulo;
     private double costoBase;
     private boolean gratuito;
-    private Sala sala;
+  
 //Constructor parametrizado/principal
 public EventoUniversitario(String id, String titulo, double costoBase, boolean gratuito) {
     this.id = id;
@@ -42,8 +42,6 @@ public void  mostrarDatos() {
     System.out.println("El costo estimado del evento es:$"+ this.calcularCostoEstimado());
     System.out.println("--------------------------------");
 }
-     public void asignarSala(Sala sala){
-        this.sala = sala;
-        }
+
 }// llave de la clase 
       

@@ -5,7 +5,7 @@ public Estudiante(String nombre, String legajo) {
     this.nombre = nombre;
     this.legajo = legajo;
     }
-    public String getnombre() {
+    public String getNombre() {
         return this.nombre;
     }
     public String getLegajo(){
